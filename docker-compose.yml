@@ -1,0 +1,11 @@
+services:
+  sqlite:
+    image: hibitdev/sqlite:latest
+    container_name: sqlite
+    hostname: sqlite.hibit
+    ports:
+      - "8191:8191"
+    volumes:
+      - ./sqlite:/db
+    command: ["tail", "-f", "/dev/null"]  # Keeps the container running
+
