@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/hibit-dev/sqlite-containerization/blob/master/images/preview.png" alt="Setting up SQLite with Docker Compose"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/hibit-dev/sqlite-containerization/master/images/preview.png" alt="Setting up SQLite with Docker Compose"></p>
 
 # Setting up SQLite with Docker Compose
 Creating a Docker image with an SQLite database is a smart way to ensure that your application runs consistently across different environments. Docker simplifies the deployment process by allowing developers to package applications with all their dependencies into a single container. SQLite, being a lightweight database, fits well into this scenario. In this article, we'll walk through the steps needed to create a Docker image that includes an SQLite database, using Docker Compose for easy management.  
